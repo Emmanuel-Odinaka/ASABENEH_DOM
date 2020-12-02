@@ -1,0 +1,55 @@
+.wrapper {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    
+}
+.wrapper-2 {
+    margin-right: 40px;
+    
+}
+#year {
+    font-size: 60px;
+    color: rgb(212, 170, 170);
+}
+#date {
+    font-size: 13px;
+    background-color: powderblue;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 30%;
+    position: relative;
+    left: 15px;
+}
+h2 {
+    text-align: center;
+}
+li {
+    text-decoration: none;
+    list-style: none;
+    
+    
+}
+.green {
+    background-color: rgb(60, 211, 60);
+    margin: 0 0 2px 0;
+    height: 30px;
+    line-height: 30px;
+
+
+}
+.yellow {
+    background-color: rgb(209, 209, 6);
+    margin: 0 0 2px 0;
+    height: 30px;
+    line-height: 30px;
+}
+.red {
+    background-color: rgb(245, 120, 120);
+    margin: 0 0 2px 0;
+    height: 30px;
+    line-height: 30px;
+}
+.sub-heading {
+    text-decoration: underline;
+}
