@@ -1,0 +1,23 @@
+header {
+    text-align: center;
+}
+.box {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    margin: 2px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 0.6rem;
+    border: 1.5px solid rgb(243, 232, 232);
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 0 1px 1px rgb(250, 246, 246);
+
+}
+.countries-wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 550px;
+    margin: auto;
+}
