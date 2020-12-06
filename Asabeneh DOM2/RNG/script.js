@@ -5,7 +5,7 @@ for (let i=0; i<=101; i++) {
     let box = document.createElement('p');
     box.textContent = i;
     document.body.appendChild(container).append(box)
-    console.log(document.body)
+    
 
     // for (let i = 0; i <= 100; i++) {
     // for getting prime number

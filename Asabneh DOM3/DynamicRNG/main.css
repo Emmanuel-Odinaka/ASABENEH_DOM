@@ -1,0 +1,50 @@
+body {
+    
+}
+.head-4 {
+    text-decoration: underline;
+}
+.header {
+     text-align: center;
+}
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 400px;
+    margin: auto;
+}
+@media screen and (max-width: 375px) {
+    .wrapper {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 300px;
+        margin: auto;
+    }
+}
+
+.green {
+    background-color: green;
+    color: white;
+    font-size: 40px;
+    margin: 2px;
+    width: 60px;
+    height: 40px;
+}
+.yellow {
+    background-color: yellow;
+    color: white;
+    font-size: 40px;
+    margin: 2px;
+    width: 60px;
+    height: 40px;
+}
+.red {
+    background-color: red;
+    color: white;
+    font-size: 40px;
+    margin: 2px;
+    width: 60px;
+    height: 40px;
+}
