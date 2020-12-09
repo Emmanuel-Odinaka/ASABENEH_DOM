@@ -23,6 +23,9 @@ button.addEventListener('click', () => {
             if (i%j===0 && j!==i) {
                 notPrime = true;
             }
+            else box.className = 'yellow' // odd numbers
+
+            container.appendChild(box);      
         }
         if (notPrime === false) {
             box.className = 'red';
