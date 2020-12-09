@@ -7,17 +7,19 @@ body {
 .header {
      text-align: center;
 }
-.wrapper {
+#wrapper {
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     width: 400px;
     margin: auto;
 }
 @media screen and (max-width: 375px) {
-    .wrapper {
+    #wrapper {
         display: flex;
         align-items: center;
+        justify-content: center;
         flex-wrap: wrap;
         width: 300px;
         margin: auto;

@@ -1,0 +1,110 @@
+body {
+    background-image: url(./images/galaxy.gif);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+}
+
+header {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+@media screen and (max-width: 500px) {
+    #mass, #button, #select{
+        width: 100%;
+        margin: auto;
+    }
+    .flex-container{
+        width: 200px;
+        margin: auto;
+        position: relative;
+        right: 38%;
+    }
+    .description {
+        width: 200px;
+        margin: auto;
+    }
+    header {
+        text-align: center;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+#mass {
+    margin: 8px;
+    width: 25%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: none;
+}
+#button {
+    margin: 8px;
+    width: 25%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    background-color: transparent;
+    background-color: rgba(246, 249, 253, 0.5);
+    color: white;
+    outline: none ;
+}
+#select {
+    margin: 8px;
+    width: 25%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    outline: none;
+    
+}
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-right: 200px;
+    margin-left:  200px;
+    margin-top: 15px;
+    background-color: rgba(246, 249, 253, 0.171);
+    padding: 15px;
+   
+}
+img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    
+}
+.description {
+    background-color: rgba(246, 249, 253, 0.11);
+    padding: 3px;
+    width: 250px;
+    text-align: center;
+    font-size: 1.3rem;
+    color: rgba(255, 255, 255, 0.897);
+    /* flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; */
+    
+}
+h2 {
+    text-align: center;
+    background-color: rgba(246, 249, 253, 0.103);
+    height: 100px;
+    line-height: 100px;
+    width: 110px;
+    border-radius: 50%;
+    position: relative;
+    left: 33%;
+    color: white;
+    
+}
