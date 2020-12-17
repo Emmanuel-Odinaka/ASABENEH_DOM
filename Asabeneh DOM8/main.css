@@ -1,0 +1,83 @@
+header{
+    text-align: center;
+}
+#add-button{
+    background-color: pink;
+    border: none;
+    outline: none;
+}
+#add-button:hover {
+    background-color: rgb(252, 90, 117);
+}
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 0 20px 0 ;
+}
+input{
+    width: 100px;
+    background-color: white;
+    margin: 0 5px 0 0;
+    border-radius: 4px;
+    border: 1px solid pink;
+    outline: none;
+}
+.result-warning{
+    color: red;
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+.content {
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    margin: 0px 0 5px 0 ;
+}
+p{
+    width: 190px;
+    height: 40px;
+}
+.country{
+    width: 240px;
+    overflow: hidden;
+}
+.button{
+    height: 30px;
+    width: 35px;
+    border-radius: 50%;
+    border-style: none;
+    position: relative;
+    top: 15px;
+    margin: 0 3px 0 2px;
+    background-color: white;
+}
+.button:hover {
+    background-color: rgb(243, 234, 234);
+}
+.span, span{
+    font-size: 9px;
+}
+@media screen and (max-width: 376px){
+    .content{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    p{
+        width: 140px;
+        height: 40px;
+    }
+    .button{
+        height: 30px;
+        position: relative;
+        top: 30px;
+    }
+    .span{
+        font-size: 10px;
+    }
+    .country{
+        width: 200px;
+        overflow: hidden;
+    }
+}
