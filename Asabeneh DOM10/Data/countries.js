@@ -1480,7 +1480,7 @@ const countries = [
       currency: 'Romanian leu'
     },
     {
-      name: 'Russian',
+      name: 'Russian Federation',
       capital: 'Moscow',
       languages: ['Russian'],
       population: 146599183,
@@ -1923,7 +1923,7 @@ const countries = [
       currency: 'British pound'
     },
     {
-      name: 'USA',
+      name: 'United States of America',
       capital: 'Washington, D.C.',
       languages: ['English'],
       population: 323947000,

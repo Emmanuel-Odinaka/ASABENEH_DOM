@@ -1,41 +1,54 @@
-.graph-wrapper{
-    display: flex;
-    justify-content: space-between;
-    margin: 0 20px 20px 20px;
+header {
+    text-align: center;
 }
-.graph{
-    width: 250px;
+.graph-buttons {
+    text-align: center;
+}
+.graph-width, .chart-width {
+    height: 20px;
     background-color: yellow;
-    color: yellow;
-    margin: 0 20px 0 20px;
+    margin: 5px 10px 0px 40px;
+    
 }
-.grae {
+.graphs, .charts {
     display: flex;
+    flex-wrap: wrap;
+    
 }
-.graf {
-    display: flex;
+.census, .total {
+    margin: 5px 0px 0 5px;
+    position: absolute;
+    right: 13px;
+    
 }
-.graa {
-    display: flex;
+.nation, .language {
+    /* display: block; */
+    width: 35px;
+    margin-top: 5px;
 }
-.gras {
-    display: flex;
+.container {
+    
 }
-.grap {
-    display: flex;
+.graph-title {
+    text-align: center;
 }
-.grar {
-    display: flex;
-}
-.grad {
-    display: flex;
-}
-.grag {
-    display: flex;
-}
-.grac {
-    display: flex;
-}
-.gras {
-    display: flex;
+
+@media screen and (min-width: 1000px) {
+    .graph-width, .chart-width {
+        position: absolute;
+        left: 500px;
+    }
+    .nation, .language {
+
+    }
+    .container {
+        width: 500px;
+        margin: auto;
+    }
+    .census, .total {
+        margin: 5px 0px 0 5px;
+        position: absolute;
+        right: 200px;
+        
+    }
 }
