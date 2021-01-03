@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header>
+        <h1>Validating Web Forms</h1>
+    </header>
+    <main>
+        <form method="GET" id="form">
+            <label for="first-name">First Name</label><br>
+            <input autofocus id="first-name" type="text" name="first-name" placeholder="Enter First Name">
+            <p class="name-valid1"></p>
+            <label for="last-name">Last Name</label><br>
+            <input id="last-name" type="text" name="last-name" placeholder="Enter Second Name">
+            <p class="name-valid2"></p>
+            <label for="email">Email</label><br>
+            <input id="email" type="text" name="email" placeholder="johndoe@gmail.com">
+            <p class="email-valid"></p>
+            <label for="password">Password</label><br>
+            <input id="password" type="password" name="password" placeholder="Enter Password">
+            <p class="password-valid"></p>
+            <label for="telephone">Telephone</label><br>
+            <input id="telephone" type="tel" name="telephone" placeholder="Enter Telephone">
+            <p class="telephone-valid"></p>
+            <label for="bio">Your bio</label><br>
+            <input id="bio" type="text" name="bio" placeholder="Enter Bio">
+            <p class="bio-valid"></p>
+
+            <input id="submit" type="submit" value="Submit">
+        </form>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
